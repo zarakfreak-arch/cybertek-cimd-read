@@ -1,0 +1,11 @@
+{
+  "client_id": "https://cdn.jsdelivr.net/gh/zarakfreak-arch/cybertek-cimd-read@main/oauth-client.json",
+  "client_name": "CybertekHuntRead",
+  "client_uri": "https://syskit.red-gate.com/",
+  "token_endpoint_auth_method": "none",
+  "grant_types": ["authorization_code"],
+  "response_types": ["code"],
+  "application_type": "web",
+  "redirect_uris": ["https://syskit.red-gate.com/callback", "https://syskit.red-gate.com/"],
+  "scope": "openid offline_access access_as_user"
+}
