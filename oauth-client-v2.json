@@ -1,0 +1,17 @@
+{
+  "client_id": "https://cdn.jsdelivr.net/gh/zarakfreak-arch/cybertek-cimd-read@main/oauth-client-v2.json",
+  "client_name": "CybertekHuntRead",
+  "client_uri": "https://cdn.jsdelivr.net/gh/zarakfreak-arch/cybertek-cimd-read@main/",
+  "token_endpoint_auth_method": "none",
+  "grant_types": ["authorization_code"],
+  "response_types": ["code"],
+  "application_type": "web",
+  "redirect_uris": [
+    "https://cdn.jsdelivr.net/gh/zarakfreak-arch/cybertek-cimd-read@main/oauth-client-v2.json",
+    "https://cdn.jsdelivr.net/callback",
+    "http://127.0.0.1/callback",
+    "http://127.0.0.1:8080/callback",
+    "http://localhost:8080/callback"
+  ],
+  "scope": "openid offline_access access_as_user"
+}
